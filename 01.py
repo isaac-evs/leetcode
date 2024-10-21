@@ -1,4 +1,4 @@
-# 01 Two Sum
+# Array Easy: 01 Two Sum
 
 def two_sum(nums, target):
 
@@ -33,7 +33,6 @@ def hash_two_sum(nums, target):
         # If it doesnt exist, update the hashmap
         prevMap[n] = i  # Updates the  dictionary with the current number n as the key and its index i as the value
     return
-
 
 nums = [2, 1, 5, 3]
 target = 4
