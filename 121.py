@@ -24,6 +24,7 @@ def solution(prices):
 
     return max_profit
 
+# Test
 prices = [7,6,4,3,1]
 result = solution(prices)
 print(result)
